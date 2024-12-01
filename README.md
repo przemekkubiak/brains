@@ -1,5 +1,5 @@
 ## Overview
-This repository contains a neural network model designed to predict brain activity from BERT word embeddings and linguistic features, and vice versa. The model features a single hidden layer with 1024 neurons.
+This repository contains a neural network model designed to predict brain activity from BERT embeddings and linguistic features, and to predict BERT embeddings and linguistic features from brain activity. The model features a single hidden layer with 1024 neurons.
 
 ## Model Architecture
 - **Input**: BERT word embeddings and linguistic features
