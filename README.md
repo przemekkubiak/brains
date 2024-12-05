@@ -2,9 +2,9 @@
 This repository contains a neural network model designed to predict brain activity from BERT embeddings and linguistic features, and to predict BERT embeddings and linguistic features from brain activity. The model features a single hidden layer with 1024 neurons.
 
 ## Model Architecture
-- **Input**: BERT word embeddings and linguistic features
+- **Input**: bBrain activity, BERT word embeddings, or linguistic features
 - **Hidden Layer**: 1024 neurons
-- **Output**: Predicted brain activity or linguistic features
+- **Output**: Predicted brain activity, BERT word embeddings, or linguistic features
 
 ## Code
 - **Wehbe_loader**: Loads and preprocessed the fMRI data from the public dataset by Wehbe et al. (2014) available [here]([url](https://www.cs.cmu.edu/~fmri/plosone/)).
